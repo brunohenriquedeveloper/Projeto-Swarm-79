@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --font-family: "Heebo", "sans-serif";
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: linear-gradient(to left, #ff6f00,#b14f05);
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    margin-right: 4em;
+    margin-top: 1em;
+}
+
+.header a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+hr {
+    border: 1px solid black;
+    width: 90vw;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-right: .5em;
+    cursor: pointer;
+}
