@@ -42,27 +42,42 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: linear-gradient(to left, #ff6f00,#b14f05);
+  background: linear-gradient(to left, #1f1f1e,#140d07);
 }
 
 .header {
     display: flex;
-    justify-content: end;
-    margin-right: 4em;
+    justify-content: space-between;
+    margin-right: 2.2em;
     margin-top: 1em;
 }
 
-.header a {
+.right-h a {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgb(237, 115, 22);
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.rigth-h {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-h {
+  display: flex;
+}
+
+
+.img-header {
+  height: 50px;
+  margin-left: 2.5em;
 }
 
 hr {
-    border: 1px solid black;
+    border: 1px solid rgb(132, 79, 25);
     width: 90vw;
 }
 
