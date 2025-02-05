@@ -123,3 +123,48 @@ li {
   75% { transform: translateX(-1800px); }
   100% { transform: translateX(0); }
 }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8em;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  margin-left: 3em;
+}
+
+.right h2 {
+  font-size: 3rem;
+  color: rgb(251, 116, 13);
+  font-family: var(--font-family);
+}
+
+.right p {
+  width: 60%;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: rgb(214, 149, 100);
+  font-family: var(--font-family);
+}
+
+.join-us {
+  border-radius: 5px;
+  padding: 1em;
+  width: 60%;
+  margin-top: 2em;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--font-family);
+  background-color: rgb(251, 116, 13);;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.join-us:hover {
+  background-color: white;;
+  color: rgb(251, 116, 13);;
+}
