@@ -48,6 +48,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-left: 3em;
+    margin-right: 4.5em;
     margin-top: 1em;
 }
 
@@ -58,6 +60,10 @@ body {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 1rem;
+}
+
+.right-h a:hover{
+    color: #FFF;
 }
 
 .rigth-h {
@@ -86,6 +92,6 @@ ul {
 }
 
 li {
-    margin-right: .5em;
+    margin-right: 1.3em;
     cursor: pointer;
 }
