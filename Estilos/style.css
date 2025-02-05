@@ -95,3 +95,31 @@ li {
     margin-right: 1.3em;
     cursor: pointer;
 }
+
+.carousel {
+  width: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 4em;
+  margin-top: 3em;
+}
+
+.carousel-track {
+  display: flex;
+  animation: slide 20s infinite;
+}
+
+.carousel-track img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-600px); }
+  50% { transform: translateX(-1200px); }
+  75% { transform: translateX(-1800px); }
+  100% { transform: translateX(0); }
+}
