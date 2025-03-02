@@ -10,6 +10,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
 }
 
 
@@ -231,3 +232,259 @@ li {
   animation: mover 1.25s infinite linear; 
 }
 
+.btn img  {
+  display: none;
+}
+
+@media screen and (max-width:1440px)  {
+  .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    align-items: center;
+  }
+
+  .right {
+    order: -1;
+    align-items: center;
+    width: 90vw;
+    flex-direction: row;
+  }
+
+  .right h2 {
+    width: 50vw;
+  }
+
+  .tet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sect2 {
+    display: flex;
+    margin-bottom: 3em;
+    width: 90vw;
+    padding: 2em;
+    border-radius: 20px;
+    background-color: #1a1a19;
+  }
+
+  .sect2 img {
+    width: 40vw;
+  }
+
+  #animation  {
+    display: none;
+  }
+
+  .text p {
+    margin-left: 10px;
+    width: 30vw;
+    text-align: justify;
+    color: #99272b;
+  }
+
+  .carousel-track{
+   display: none;
+  }
+  
+  .btn {
+    width: 60vw;
+    margin-top: 3em;
+    margin-right: 3em;
+  }
+
+  .btn button {
+    width: 40vw;
+  }
+
+  .btn img {
+    display: block;
+    width: 40vw;
+    border-radius: 20px;
+  }
+  
+}
+
+@media screen and (max-width:768px) {
+  .btn img {
+    display: none;
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tet {
+    align-items: center;
+    width: 80vw;
+  }
+
+  .tet h2 {
+    font-size: 2.5rem;
+  }
+
+  .tet p {
+    font-size: 1.25rem;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    width: 70vw;
+  }
+
+  #butto {
+    width: 60vw;
+    align-self: center;
+    margin-left: 5em;
+    padding: 1.5em;
+  }
+
+  .sect2 h2 {
+    font-size: 2rem;
+  }
+
+  .sect2 p {
+    font-size: 1.2rem;
+  }
+
+  .sect2 img {
+    width: 30vw;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width:650px){
+
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .container {
+    width: 100vw;
+  }
+  .sect2 h2 {
+    font-size: 1.7rem;
+  }
+
+  .sect2 p {
+    font-size: 1rem;
+  }
+
+  .sect2 img {
+    width: 20vw;
+    height: 20vh;
+  }
+
+  #hero {
+    max-width: 100vw;
+  }
+
+  .left {
+    display: none;
+  }
+}
+
+@media screen and (max-width:427px) {
+  .sect2 img {
+   display: none;
+  }
+
+  .sect2 p {
+    font-size: 1rem;
+    width: 60vw;
+    margin-left: 0em;
+  }
+
+  .tet h2 {
+    font-size: 2rem;
+    width: 70vw;
+    margin-left: 1em;
+  }
+
+  .tet p {
+    width: 70vw;
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    width: 90vw;
+    margin-top: 1em;
+  }
+
+  #butto {
+    width: 80vw;
+    align-self: center;
+    margin-left: 5em;
+    padding: 1em;
+  }
+
+  .img-header {
+    height: 50px;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width:376px) {
+  .tet h2 {
+    font-size: 2rem;
+    width: 75vw;
+    margin-left: .6em;
+  }
+
+  #butto {
+    margin-left: 4em;
+  }
+
+  .img-header {
+    height: 50px;
+    margin-left: -1em;
+  }
+}
+
+@media screen and (max-width:325px) {
+  .header {
+    width: 100vw;
+    margin-left: 0;
+  }
+
+  .header a {
+    font-size: .9rem;
+  }
+
+  .img-header {
+    margin-left: 1em;
+  }
+
+  .tet h2 {
+    font-size: 1.8rem;
+    width: 80vw;
+    margin-left: .6em;
+  }
+
+  .tet p {
+    font-size: 1rem;
+  }
+
+ .sect2 h2 {
+  font-size: 1.4rem;
+ }
+
+}
