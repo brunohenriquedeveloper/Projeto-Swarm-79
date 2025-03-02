@@ -446,7 +446,7 @@ li {
 
   .tet h2 {
     font-size: 2rem;
-    width: 70vw;
+    width: 75vw !important;
     margin-left: .7em;
   }
 
