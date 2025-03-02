@@ -338,6 +338,7 @@ li {
 
   .tet h2 {
     font-size: 2.5rem;
+    margin-left: 1em;
   }
 
   .tet p {
@@ -381,6 +382,10 @@ li {
 
   .header img {
     margin-left: 1em;
+  }
+
+  .btn {
+    margin-top: 1em;
   }
 }
 
@@ -442,11 +447,15 @@ li {
   .tet h2 {
     font-size: 2rem;
     width: 70vw;
-    margin-left: 1em;
+    margin-left: .7em;
+  }
+
+  .tet {
+    width: 100vw;
   }
 
   .tet p {
-    width: 70vw;
+    width: 60vw !important;
     font-size: 1.2rem;
   }
 
@@ -512,11 +521,19 @@ li {
   }
 
   .tet p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
  .sect2 h2 {
   font-size: 1.4rem;
  }
 
+}
+
+@media screen and (max-width:1025px) {
+
+  .tet p {
+    width: 40vw;
+  }
+  
 }
