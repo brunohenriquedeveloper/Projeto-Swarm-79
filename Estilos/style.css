@@ -60,7 +60,7 @@ body {
     color: #D72229;
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .right-h a:hover{
@@ -78,7 +78,7 @@ body {
 
 
 .img-header {
-  height: 50px;
+  height: 60px;
   margin-left: 2.5em;
 }
 
@@ -128,7 +128,8 @@ li {
 .container{
   display: flex;
   flex-direction: row;
-  margin-left: 8em;
+  margin-left: 18em;
+  
 }
 
 .right {
@@ -147,7 +148,7 @@ li {
 .right p {
   width: 60%;
   text-align: justify;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #99272b;
   font-family: var(--font-family);
 }
@@ -155,10 +156,10 @@ li {
 .join-us {
   border-radius: 5px;
   border: none;
-  padding: 1em;
+  padding: 1.5em;
   width: 60%;
   margin-top: 2em;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   font-family: var(--font-family);
   background-color: #D72229;
@@ -199,7 +200,7 @@ li {
 .sect2 {
   display: flex;
   margin-bottom: 3em;
-  width: 1100px;
+  width: 1180px;
   padding: 2em;
   border-radius: 20px;
   background-color: #1a1a19;
@@ -220,6 +221,8 @@ li {
 .text p {
   margin-left: 10px;
   width: 350px;
+  margin-left: 0;
+  font-size: 1.6rem;
   text-align: justify;
   color: #99272b;
 }
@@ -236,7 +239,7 @@ li {
   display: none;
 }
 
-@media screen and (max-width:1440px)  {
+@media screen and (max-width:1439px)  {
   .container{
     display: flex;
     flex-direction: column;
@@ -326,6 +329,7 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
+  
 
   .tet {
     align-items: center;
@@ -351,6 +355,7 @@ li {
     align-self: center;
     margin-left: 5em;
     padding: 1.5em;
+    margin-top: 1em;
   }
 
   .sect2 h2 {
@@ -364,6 +369,18 @@ li {
   .sect2 img {
     width: 30vw;
     height: 30vh;
+  }
+
+  .info {
+    margin-top: 2em;
+  }
+
+  .header a {
+    font-size: 1.1rem;
+  }
+
+  .header img {
+    margin-left: 1em;
   }
 }
 
@@ -406,6 +423,16 @@ li {
    display: none;
   }
 
+  .header a {
+    font-size: 1rem;
+  }
+
+  .img-header {
+    margin-left: 1em;
+    height: 50px;
+  }
+
+
   .sect2 p {
     font-size: 1rem;
     width: 60vw;
@@ -433,11 +460,16 @@ li {
     align-self: center;
     margin-left: 5em;
     padding: 1em;
+    font-size: 1rem;
   }
 
   .img-header {
     height: 50px;
-    margin-left: 0;
+  }
+
+  .header {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
 }
